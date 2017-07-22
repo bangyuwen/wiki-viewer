@@ -1,0 +1,59 @@
+body {
+  background-color: #69B0AC;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.App {
+}
+.content {
+  margin: 0 100px;
+}
+.input {
+  text-align: center;
+  margin: 70px 0 30px 0;
+}
+.input input {
+  height: 1.8em;
+  margin-bottom: 5px;
+  border: 2px solid #fff;
+  border-radius: 2em;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  background-color: inherit;
+  outline: none;
+}
+.input div {
+  width: 0.9em;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid white;
+  transform: translateX(-0.45em) translateY(0.7em) rotate(45deg);
+}
+.input p {
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  font-size: .5em;
+  color: #fff;
+}
+.resblock {
+  margin: 0.8em 0;
+  padding: 1.2em 2em;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.resblock h3 {
+  margin: 0 0 0.2em 0;
+}
+.resblock p {
+  margin: 0 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
